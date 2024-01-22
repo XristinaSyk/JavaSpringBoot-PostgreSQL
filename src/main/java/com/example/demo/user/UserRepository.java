@@ -1,4 +1,4 @@
-//----------THIS INTERFACE IS RESPONSIBLE FOR DATA ACCESS----------
+
 package com.example.demo.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
