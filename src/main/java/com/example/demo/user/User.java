@@ -8,7 +8,7 @@ public class User {
     @Id
     //allocationSize=1: for auto_increment id
     @SequenceGenerator(name="user_sequence",sequenceName="user_sequence")
-    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator= "user_sequence") // connection of this class to our table in database
+    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator= "user_sequence")
     private Long id;
     private String name;
     private Integer age;
