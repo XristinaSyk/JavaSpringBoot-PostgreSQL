@@ -1,7 +1,3 @@
-//-----------SERVER-----------
-//postgres sto intelliJ: name: xristina@localhost, database: user
-//psql: server: localhost, username: postgres
-
 package com.example.demo;
 
 import com.example.demo.user.User;
